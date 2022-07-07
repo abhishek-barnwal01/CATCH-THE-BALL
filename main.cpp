@@ -6,12 +6,12 @@
 #include<process.h>
 
 int balls_caught=0,missed_balls=0,level_count=1,points=0;
-int p=0;                // To increment the points based on color
-int d=0;                // For color selection
-int ball_x,ball_y=10;   // To compute the x and y co ordinates of ball
-int basket_x,basket_y;  // To compute the x and y co ordinates of basket
-int a=500,b=500;        // To set the default screen size
-int s=0;                // To display menu options
+int p=0;                    // To increment the points based on color
+int d=0;                    // For color selection
+int ball_x,ball_y=10;       // To compute the x and y co ordinates of ball
+int basket_x, basket_y;    // To compute the x and y co ordinates of basket
+int a=500, b=500;           // To set the default screen size
+int s=0;                    // To display menu options
 int dropped_balls=0;    // To calculate the number of balls dropped
 int speed_1=1,speed_2=2,speed_3=3,speed_4=4;    // To increment speeds based on the level
 int red_ball=0,white_ball=0;
@@ -43,7 +43,7 @@ void myinit()
     glutPostRedisplay();
 }
 
-// Drawing the initial screen with with the title
+// Drawing the initial screen with with the title...
 void start_screen(int i,int j)
 {
     int k;
